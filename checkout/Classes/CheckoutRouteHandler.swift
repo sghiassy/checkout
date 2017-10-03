@@ -10,6 +10,8 @@ import AirGap
 
 class CheckoutRouteHandler: RouteHandlerServer {
     override open func routes(server:Server) {
-        server.VC = CheckoutViewController.self
+        server.onSHOW("/") { (req, res) in
+            res.viewC = CheckoutViewController()
+        }
     }
 }
