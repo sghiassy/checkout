@@ -8,7 +8,7 @@
 import UIKit
 import AirGap
 
-class CheckoutRouteHandler: RouteHandlerServer {
+class CheckoutRouteHandler: RouteHandler {
     override open func routes(server:Server) {
         server.onSHOW("/") { (req, res) in
             res.viewC = CheckoutViewController()
