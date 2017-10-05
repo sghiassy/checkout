@@ -10,7 +10,7 @@ info:
     name: Apache 2.0
     url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
 domain:
-  url: checkout.groupon.com
+  url: cart.groupon.com
   description: The main checkout server
 routeHandler: CheckoutRouteHandler
 paths:
@@ -21,5 +21,3 @@ paths:
       responses:
         '200':
           description: Show the Checkoutpage per the session id
-          type: UIKit/UIViewController
-          file: CheckoutViewController.swift

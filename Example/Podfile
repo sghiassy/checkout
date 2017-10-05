@@ -4,6 +4,8 @@ use_frameworks!
 target 'checkout_Example' do
   pod 'checkout', :path => '../'
   pod 'AirGap', :path => '../../air-gap/'
+  pod 'Alamofire'
+  pod 'AlamofireImage'
 
   target 'checkout_Tests' do
     inherit! :search_paths

@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow(frame: UIScreen.main.bounds)
-        let initialViewController = CheckoutViewController()
+        let initialViewController = CheckoutViewController(sessionId: "skogg-gym")
         initialViewController.view.frame = UIScreen.main.bounds
         self.nav = UINavigationController(rootViewController: initialViewController)
         self.nav?.setNavigationBarHidden(true, animated: false)
