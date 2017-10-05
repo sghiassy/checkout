@@ -13,6 +13,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6D7D7F5AAC14A86C04ECE822 /* Pods_checkout_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7FB0E5FF00E41A9B548637 /* Pods_checkout_Example.framework */; };
+		AA3FFB741F85EE8900CD42F7 /* Airgap.json in Resources */ = {isa = PBXBuildFile; fileRef = AA3FFB731F85EE8900CD42F7 /* Airgap.json */; };
 		F079FB3CDB0926D55FD00A92 /* Pods_checkout_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB0A414B1C3D7780053373D /* Pods_checkout_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		615266EE70E8D2FE59D3D0AC /* Pods-checkout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkout_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-checkout_Example/Pods-checkout_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9819B669E5FB72A6279119BF /* checkout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = checkout.podspec; path = ../checkout.podspec; sourceTree = "<group>"; };
+		AA3FFB731F85EE8900CD42F7 /* Airgap.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Airgap.json; path = ../../Airgap.json; sourceTree = "<group>"; };
 		CF44FAD7D67607DA81D52724 /* Pods-checkout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-checkout_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-checkout_Example/Pods-checkout_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				AA3FFB731F85EE8900CD42F7 /* Airgap.json */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				AA3FFB741F85EE8900CD42F7 /* Airgap.json in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
