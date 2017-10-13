@@ -4,7 +4,7 @@
   "description": "[![CI Status](http://img.shields.io/travis/Shaheen Ghiassy/checkout.svg?style=flat)](https://travis-ci.org/Shaheen Ghiassy/checkout) [![Version](https://img.shields.io/cocoapods/v/checkout.svg?style=flat)](http://cocoapods.org/pods/checkout) [![License](https://img.shields.io/cocoapods/l/checkout.svg?style=flat)](http://cocoapods.org/pods/checkout) [![Platform](https://img.shields.io/cocoapods/p/checkout.svg?style=flat)](http://cocoapods.org/pods/checkout)",
   "main": "index.js",
   "scripts": {
-    "install": "cd Example; pod install; cd -",
+    "pod:install": "cd Example; pod install; cd -",
     "x": "open Example/checkout.xcworkspace"
   },
   "repository": {
